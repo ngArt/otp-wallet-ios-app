@@ -3,10 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7920D14B24BD017300702617 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13324BD017300702617 /* Protobuf.framework */; };
+		7920D14C24BD017300702617 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13424BD017300702617 /* GoogleDataTransport.framework */; };
+		7920D14D24BD017300702617 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13524BD017300702617 /* Firebase.framework */; };
+		7920D14E24BD017300702617 /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13624BD017300702617 /* GoogleDataTransportCCTSupport.framework */; };
+		7920D14F24BD017300702617 /* FirebaseCrashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13724BD017300702617 /* FirebaseCrashlytics.framework */; };
+		7920D15024BD017300702617 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13824BD017300702617 /* GoogleAppMeasurement.framework */; };
+		7920D15124BD017300702617 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13924BD017300702617 /* GTMSessionFetcher.framework */; };
+		7920D15224BD017300702617 /* GTMAppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13A24BD017300702617 /* GTMAppAuth.framework */; };
+		7920D15324BD017300702617 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13B24BD017300702617 /* FirebaseCore.framework */; };
+		7920D15424BD017300702617 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13C24BD017300702617 /* AppAuth.framework */; };
+		7920D15524BD017300702617 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13D24BD017300702617 /* FirebaseAnalytics.framework */; };
+		7920D15624BD017300702617 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13E24BD017300702617 /* GoogleUtilities.framework */; };
+		7920D15724BD017300702617 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D13F24BD017300702617 /* FirebaseAuth.framework */; };
+		7920D15824BD017300702617 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D14024BD017300702617 /* PromisesObjC.framework */; };
+		7920D15924BD017300702617 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D14124BD017300702617 /* nanopb.framework */; };
+		7920D15A24BD017300702617 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D14224BD017300702617 /* FirebaseInstallations.framework */; };
+		7920D15B24BD017300702617 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D14324BD017300702617 /* FIRAnalyticsConnector.framework */; };
+		7920D15C24BD017300702617 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D14424BD017300702617 /* GoogleSignIn.framework */; };
+		7920D15D24BD017300702617 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920D14524BD017300702617 /* FirebaseCoreDiagnostics.framework */; };
 		79E25A6A24BCF309002CC8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A6924BCF309002CC8EB /* AppDelegate.swift */; };
 		79E25A6C24BCF309002CC8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A6B24BCF309002CC8EB /* SceneDelegate.swift */; };
 		79E25A6F24BCF309002CC8EB /* OTPWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A6D24BCF309002CC8EB /* OTPWallet.xcdatamodeld */; };
@@ -36,6 +55,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7920D12824BCF89A00702617 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		7920D12924BCF8C700702617 /* input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = input.xcfilelist; sourceTree = "<group>"; };
+		7920D12B24BCF8D900702617 /* output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = output.xcfilelist; sourceTree = "<group>"; };
+		7920D13324BD017300702617 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		7920D13424BD017300702617 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
+		7920D13524BD017300702617 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		7920D13624BD017300702617 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = "<group>"; };
+		7920D13724BD017300702617 /* FirebaseCrashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrashlytics.framework; sourceTree = "<group>"; };
+		7920D13824BD017300702617 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		7920D13924BD017300702617 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		7920D13A24BD017300702617 /* GTMAppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMAppAuth.framework; sourceTree = "<group>"; };
+		7920D13B24BD017300702617 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		7920D13C24BD017300702617 /* AppAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppAuth.framework; sourceTree = "<group>"; };
+		7920D13D24BD017300702617 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7920D13E24BD017300702617 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		7920D13F24BD017300702617 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		7920D14024BD017300702617 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		7920D14124BD017300702617 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		7920D14224BD017300702617 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
+		7920D14324BD017300702617 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		7920D14424BD017300702617 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		7920D14524BD017300702617 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		79E25A6624BCF309002CC8EB /* OTPWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E25A6924BCF309002CC8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79E25A6B24BCF309002CC8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +99,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7920D14F24BD017300702617 /* FirebaseCrashlytics.framework in Frameworks */,
+				7920D15D24BD017300702617 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				7920D15A24BD017300702617 /* FirebaseInstallations.framework in Frameworks */,
+				7920D14B24BD017300702617 /* Protobuf.framework in Frameworks */,
+				7920D15324BD017300702617 /* FirebaseCore.framework in Frameworks */,
+				7920D15024BD017300702617 /* GoogleAppMeasurement.framework in Frameworks */,
+				7920D15224BD017300702617 /* GTMAppAuth.framework in Frameworks */,
+				7920D14D24BD017300702617 /* Firebase.framework in Frameworks */,
+				7920D15C24BD017300702617 /* GoogleSignIn.framework in Frameworks */,
+				7920D15824BD017300702617 /* PromisesObjC.framework in Frameworks */,
+				7920D15924BD017300702617 /* nanopb.framework in Frameworks */,
+				7920D15624BD017300702617 /* GoogleUtilities.framework in Frameworks */,
+				7920D15B24BD017300702617 /* FIRAnalyticsConnector.framework in Frameworks */,
+				7920D15424BD017300702617 /* AppAuth.framework in Frameworks */,
+				7920D15724BD017300702617 /* FirebaseAuth.framework in Frameworks */,
+				7920D14E24BD017300702617 /* GoogleDataTransportCCTSupport.framework in Frameworks */,
+				7920D15524BD017300702617 /* FirebaseAnalytics.framework in Frameworks */,
+				7920D15124BD017300702617 /* GTMSessionFetcher.framework in Frameworks */,
+				7920D14C24BD017300702617 /* GoogleDataTransport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +138,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7920D12724BCF88100702617 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				7920D12824BCF89A00702617 /* Cartfile */,
+				7920D12924BCF8C700702617 /* input.xcfilelist */,
+				7920D12B24BCF8D900702617 /* output.xcfilelist */,
+				7920D12E24BD017300702617 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		7920D12E24BD017300702617 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				7920D13224BD017300702617 /* iOS */,
+			);
+			name = Build;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		7920D13224BD017300702617 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7920D13324BD017300702617 /* Protobuf.framework */,
+				7920D13424BD017300702617 /* GoogleDataTransport.framework */,
+				7920D13524BD017300702617 /* Firebase.framework */,
+				7920D13624BD017300702617 /* GoogleDataTransportCCTSupport.framework */,
+				7920D13724BD017300702617 /* FirebaseCrashlytics.framework */,
+				7920D13824BD017300702617 /* GoogleAppMeasurement.framework */,
+				7920D13924BD017300702617 /* GTMSessionFetcher.framework */,
+				7920D13A24BD017300702617 /* GTMAppAuth.framework */,
+				7920D13B24BD017300702617 /* FirebaseCore.framework */,
+				7920D13C24BD017300702617 /* AppAuth.framework */,
+				7920D13D24BD017300702617 /* FirebaseAnalytics.framework */,
+				7920D13E24BD017300702617 /* GoogleUtilities.framework */,
+				7920D13F24BD017300702617 /* FirebaseAuth.framework */,
+				7920D14024BD017300702617 /* PromisesObjC.framework */,
+				7920D14124BD017300702617 /* nanopb.framework */,
+				7920D14224BD017300702617 /* FirebaseInstallations.framework */,
+				7920D14324BD017300702617 /* FIRAnalyticsConnector.framework */,
+				7920D14424BD017300702617 /* GoogleSignIn.framework */,
+				7920D14524BD017300702617 /* FirebaseCoreDiagnostics.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		79E25A5D24BCF309002CC8EB = {
 			isa = PBXGroup;
 			children = (
 				79E25A6824BCF309002CC8EB /* OTPWallet */,
 				79E25A8224BCF309002CC8EB /* OTPWalletTests */,
 				79E25A8D24BCF30A002CC8EB /* OTPWalletUITests */,
+				7920D12724BCF88100702617 /* Carthage */,
 				79E25A6724BCF309002CC8EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,6 +256,8 @@
 				79E25A6224BCF309002CC8EB /* Sources */,
 				79E25A6324BCF309002CC8EB /* Frameworks */,
 				79E25A6424BCF309002CC8EB /* Resources */,
+				7920D12D24BCFC2800702617 /* Carthage Check Update */,
+				7920D12C24BCF8E800702617 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -264,6 +373,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7920D12C24BCF8E800702617 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/Carthage/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = Carthage;
+			outputFileListPaths = (
+				"$(SRCROOT)/Carthage/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nCARTHAGE=\"$(which carthage)\"\n\nif [ -n \"$CARTHAGE\" ]; then\n    $CARTHAGE copy-frameworks\nelse\n    echo \"error: Could not find carthage binary. Please follow the instructions in here to download or install carthage. https://github.com/Carthage/Carthage#installing-carthage\"\n    exit 1\nfi\n";
+		};
+		7920D12D24BCFC2800702617 /* Carthage Check Update */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Carthage Check Update";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nCARTHAGE=\"$(which carthage)\"\n\nif [ -n \"$CARTHAGE\" ]; then\n    $CARTHAGE outdated --xcode-warnings --project-directory $SRCROOT/Carthage\nelse\n    echo \"error: Could not find carthage binary. Please follow the instructions in here to download or install carthage. https://github.com/Carthage/Carthage#installing-carthage\"\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79E25A6224BCF309002CC8EB /* Sources */ = {
@@ -442,6 +592,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OTPWallet/Preview Content\"";
 				DEVELOPMENT_TEAM = VD6RF9S867;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OTPWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +616,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OTPWallet/Preview Content\"";
 				DEVELOPMENT_TEAM = VD6RF9S867;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OTPWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
