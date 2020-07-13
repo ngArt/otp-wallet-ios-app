@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E25A6A24BCF309002CC8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A6924BCF309002CC8EB /* AppDelegate.swift */; };
+		79E25A6C24BCF309002CC8EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A6B24BCF309002CC8EB /* SceneDelegate.swift */; };
+		79E25A6F24BCF309002CC8EB /* OTPWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A6D24BCF309002CC8EB /* OTPWallet.xcdatamodeld */; };
+		79E25A7124BCF309002CC8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A7024BCF309002CC8EB /* ContentView.swift */; };
+		79E25A7324BCF309002CC8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E25A7224BCF309002CC8EB /* Assets.xcassets */; };
+		79E25A7624BCF309002CC8EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E25A7524BCF309002CC8EB /* Preview Assets.xcassets */; };
+		79E25A7924BCF309002CC8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E25A7724BCF309002CC8EB /* LaunchScreen.storyboard */; };
+		79E25A8424BCF309002CC8EB /* OTPWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A8324BCF309002CC8EB /* OTPWalletTests.swift */; };
+		79E25A8F24BCF30A002CC8EB /* OTPWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E25A8E24BCF30A002CC8EB /* OTPWalletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E25A8024BCF309002CC8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E25A5E24BCF309002CC8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E25A6524BCF309002CC8EB;
+			remoteInfo = OTPWallet;
+		};
+		79E25A8B24BCF30A002CC8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E25A5E24BCF309002CC8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E25A6524BCF309002CC8EB;
+			remoteInfo = OTPWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E25A6624BCF309002CC8EB /* OTPWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E25A6924BCF309002CC8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E25A6B24BCF309002CC8EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79E25A6E24BCF309002CC8EB /* OTPWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OTPWallet.xcdatamodel; sourceTree = "<group>"; };
+		79E25A7024BCF309002CC8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79E25A7224BCF309002CC8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E25A7524BCF309002CC8EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E25A7824BCF309002CC8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E25A7A24BCF309002CC8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E25A7F24BCF309002CC8EB /* OTPWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E25A8324BCF309002CC8EB /* OTPWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPWalletTests.swift; sourceTree = "<group>"; };
+		79E25A8524BCF309002CC8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E25A8A24BCF30A002CC8EB /* OTPWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E25A8E24BCF30A002CC8EB /* OTPWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPWalletUITests.swift; sourceTree = "<group>"; };
+		79E25A9024BCF30A002CC8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E25A6324BCF309002CC8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E25A7C24BCF309002CC8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E25A8724BCF30A002CC8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E25A5D24BCF309002CC8EB = {
+			isa = PBXGroup;
+			children = (
+				79E25A6824BCF309002CC8EB /* OTPWallet */,
+				79E25A8224BCF309002CC8EB /* OTPWalletTests */,
+				79E25A8D24BCF30A002CC8EB /* OTPWalletUITests */,
+				79E25A6724BCF309002CC8EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E25A6724BCF309002CC8EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E25A6624BCF309002CC8EB /* OTPWallet.app */,
+				79E25A7F24BCF309002CC8EB /* OTPWalletTests.xctest */,
+				79E25A8A24BCF30A002CC8EB /* OTPWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E25A6824BCF309002CC8EB /* OTPWallet */ = {
+			isa = PBXGroup;
+			children = (
+				79E25A6924BCF309002CC8EB /* AppDelegate.swift */,
+				79E25A6B24BCF309002CC8EB /* SceneDelegate.swift */,
+				79E25A7024BCF309002CC8EB /* ContentView.swift */,
+				79E25A7224BCF309002CC8EB /* Assets.xcassets */,
+				79E25A7724BCF309002CC8EB /* LaunchScreen.storyboard */,
+				79E25A7A24BCF309002CC8EB /* Info.plist */,
+				79E25A6D24BCF309002CC8EB /* OTPWallet.xcdatamodeld */,
+				79E25A7424BCF309002CC8EB /* Preview Content */,
+			);
+			path = OTPWallet;
+			sourceTree = "<group>";
+		};
+		79E25A7424BCF309002CC8EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79E25A7524BCF309002CC8EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E25A8224BCF309002CC8EB /* OTPWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E25A8324BCF309002CC8EB /* OTPWalletTests.swift */,
+				79E25A8524BCF309002CC8EB /* Info.plist */,
+			);
+			path = OTPWalletTests;
+			sourceTree = "<group>";
+		};
+		79E25A8D24BCF30A002CC8EB /* OTPWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E25A8E24BCF30A002CC8EB /* OTPWalletUITests.swift */,
+				79E25A9024BCF30A002CC8EB /* Info.plist */,
+			);
+			path = OTPWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E25A6524BCF309002CC8EB /* OTPWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E25A9324BCF30A002CC8EB /* Build configuration list for PBXNativeTarget "OTPWallet" */;
+			buildPhases = (
+				79E25A6224BCF309002CC8EB /* Sources */,
+				79E25A6324BCF309002CC8EB /* Frameworks */,
+				79E25A6424BCF309002CC8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPWallet;
+			productName = OTPWallet;
+			productReference = 79E25A6624BCF309002CC8EB /* OTPWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E25A7E24BCF309002CC8EB /* OTPWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E25A9624BCF30A002CC8EB /* Build configuration list for PBXNativeTarget "OTPWalletTests" */;
+			buildPhases = (
+				79E25A7B24BCF309002CC8EB /* Sources */,
+				79E25A7C24BCF309002CC8EB /* Frameworks */,
+				79E25A7D24BCF309002CC8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E25A8124BCF309002CC8EB /* PBXTargetDependency */,
+			);
+			name = OTPWalletTests;
+			productName = OTPWalletTests;
+			productReference = 79E25A7F24BCF309002CC8EB /* OTPWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E25A8924BCF30A002CC8EB /* OTPWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E25A9924BCF30A002CC8EB /* Build configuration list for PBXNativeTarget "OTPWalletUITests" */;
+			buildPhases = (
+				79E25A8624BCF30A002CC8EB /* Sources */,
+				79E25A8724BCF30A002CC8EB /* Frameworks */,
+				79E25A8824BCF30A002CC8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E25A8C24BCF30A002CC8EB /* PBXTargetDependency */,
+			);
+			name = OTPWalletUITests;
+			productName = OTPWalletUITests;
+			productReference = 79E25A8A24BCF30A002CC8EB /* OTPWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E25A5E24BCF309002CC8EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ngArt;
+				TargetAttributes = {
+					79E25A6524BCF309002CC8EB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					79E25A7E24BCF309002CC8EB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 79E25A6524BCF309002CC8EB;
+					};
+					79E25A8924BCF30A002CC8EB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 79E25A6524BCF309002CC8EB;
+					};
+				};
+			};
+			buildConfigurationList = 79E25A6124BCF309002CC8EB /* Build configuration list for PBXProject "OTPWallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E25A5D24BCF309002CC8EB;
+			productRefGroup = 79E25A6724BCF309002CC8EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E25A6524BCF309002CC8EB /* OTPWallet */,
+				79E25A7E24BCF309002CC8EB /* OTPWalletTests */,
+				79E25A8924BCF30A002CC8EB /* OTPWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E25A6424BCF309002CC8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E25A7924BCF309002CC8EB /* LaunchScreen.storyboard in Resources */,
+				79E25A7624BCF309002CC8EB /* Preview Assets.xcassets in Resources */,
+				79E25A7324BCF309002CC8EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E25A7D24BCF309002CC8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E25A8824BCF30A002CC8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E25A6224BCF309002CC8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E25A6A24BCF309002CC8EB /* AppDelegate.swift in Sources */,
+				79E25A6F24BCF309002CC8EB /* OTPWallet.xcdatamodeld in Sources */,
+				79E25A7124BCF309002CC8EB /* ContentView.swift in Sources */,
+				79E25A6C24BCF309002CC8EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E25A7B24BCF309002CC8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E25A8424BCF309002CC8EB /* OTPWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E25A8624BCF30A002CC8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E25A8F24BCF30A002CC8EB /* OTPWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E25A8124BCF309002CC8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E25A6524BCF309002CC8EB /* OTPWallet */;
+			targetProxy = 79E25A8024BCF309002CC8EB /* PBXContainerItemProxy */;
+		};
+		79E25A8C24BCF30A002CC8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E25A6524BCF309002CC8EB /* OTPWallet */;
+			targetProxy = 79E25A8B24BCF30A002CC8EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E25A7724BCF309002CC8EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E25A7824BCF309002CC8EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E25A9124BCF30A002CC8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E25A9224BCF30A002CC8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E25A9424BCF30A002CC8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OTPWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = VD6RF9S867;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OTPWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E25A9524BCF30A002CC8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OTPWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = VD6RF9S867;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OTPWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E25A9724BCF30A002CC8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD6RF9S867;
+				INFOPLIST_FILE = OTPWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPWallet.app/OTPWallet";
+			};
+			name = Debug;
+		};
+		79E25A9824BCF30A002CC8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD6RF9S867;
+				INFOPLIST_FILE = OTPWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPWallet.app/OTPWallet";
+			};
+			name = Release;
+		};
+		79E25A9A24BCF30A002CC8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD6RF9S867;
+				INFOPLIST_FILE = OTPWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPWallet;
+			};
+			name = Debug;
+		};
+		79E25A9B24BCF30A002CC8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD6RF9S867;
+				INFOPLIST_FILE = OTPWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E25A6124BCF309002CC8EB /* Build configuration list for PBXProject "OTPWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E25A9124BCF30A002CC8EB /* Debug */,
+				79E25A9224BCF30A002CC8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E25A9324BCF30A002CC8EB /* Build configuration list for PBXNativeTarget "OTPWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E25A9424BCF30A002CC8EB /* Debug */,
+				79E25A9524BCF30A002CC8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E25A9624BCF30A002CC8EB /* Build configuration list for PBXNativeTarget "OTPWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E25A9724BCF30A002CC8EB /* Debug */,
+				79E25A9824BCF30A002CC8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E25A9924BCF30A002CC8EB /* Build configuration list for PBXNativeTarget "OTPWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E25A9A24BCF30A002CC8EB /* Debug */,
+				79E25A9B24BCF30A002CC8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79E25A6D24BCF309002CC8EB /* OTPWallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79E25A6E24BCF309002CC8EB /* OTPWallet.xcdatamodel */,
+			);
+			currentVersion = 79E25A6E24BCF309002CC8EB /* OTPWallet.xcdatamodel */;
+			path = OTPWallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79E25A5E24BCF309002CC8EB /* Project object */;
+}
