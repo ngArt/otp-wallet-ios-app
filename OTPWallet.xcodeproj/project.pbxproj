@@ -258,6 +258,7 @@
 				79E25A6424BCF309002CC8EB /* Resources */,
 				7920D12D24BCFC2800702617 /* Carthage Check Update */,
 				7920D12C24BCF8E800702617 /* Carthage */,
+				7920D16024BD024700702617 /* Update Bundle Version */,
 			);
 			buildRules = (
 			);
@@ -412,6 +413,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nCARTHAGE=\"$(which carthage)\"\n\nif [ -n \"$CARTHAGE\" ]; then\n    $CARTHAGE outdated --xcode-warnings --project-directory $SRCROOT/Carthage\nelse\n    echo \"error: Could not find carthage binary. Please follow the instructions in here to download or install carthage. https://github.com/Carthage/Carthage#installing-carthage\"\n    exit 1\nfi\n";
+		};
+		7920D16024BD024700702617 /* Update Bundle Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Update Bundle Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n#  update_build_number.sh\n#  Usage: `update_build_number.sh [branch]`\n#  Run this script after the 'Copy Bundle Resources' build phase\n#  Ref: http://tgoode.com/2014/06/05/sensible-way-increment-bundle-version-cfbundleversion-xcode/\n\nif [ \"$CURRENT_PROJECT_VERSION\" = \"Automatic\" ]; then\n    buildNumber=\"$(git rev-list HEAD --count)\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n    if [ -f \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\" ]; then\n        /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\"\n    fi\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -589,6 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"OTPWallet/Preview Content\"";
 				DEVELOPMENT_TEAM = VD6RF9S867;
 				ENABLE_PREVIEWS = YES;
@@ -601,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ngart.otp-wallet.ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -613,6 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"OTPWallet/Preview Content\"";
 				DEVELOPMENT_TEAM = VD6RF9S867;
 				ENABLE_PREVIEWS = YES;
@@ -625,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.ngart.OTPWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ngart.otp-wallet.ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
